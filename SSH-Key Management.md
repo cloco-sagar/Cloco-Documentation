@@ -9,7 +9,11 @@ It contains two parts i.e Public key(id_rsa.pub) and Private key(id_rsa). Public
 
 1. Run the ssh-keygen command.
    ```
-   ssh-keygen -t rsa
+   ssh-keygen -t rsa  //Works for simply generating ssh key pair
+   
+   or
+   
+   ssh-keygen -t rsa -f ~/.ssh/<filename> -C <email_address> //It will generate ssh key pair with filename for particular email
    
    or
    
