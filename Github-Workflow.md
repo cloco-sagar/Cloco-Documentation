@@ -58,18 +58,21 @@ Let's discuss each branches that we organize our codes on:
    ```
    
 4. **develop Branch**
+
    This branch is responsible for active development branch where all new features and bugfixes are merged. This branch should be deployed in dev environmemt for testing
    ```
    git checkout develop
    ```
    
 5. **feature/ Branch**
+
    This branch is responsible for creating specific feature. This branch needs to be created or updated with latest develop branch. After creating the feature and throughly reverifying it, PR needs to be created against develop branch.
    ```
    git checkout -b feature/123 develop
    ```
 
 6. **bugfix/ Branch**
+
    This branch is responsible for fixing specific bug or issues found in develop environment. This branch needs to be created or updated with latest develop branch. After fixing the bug or issue and throughly reverifying it, PR needs to be created against develop branch.
    ```
    git checkout -b bugfix/123 develop
