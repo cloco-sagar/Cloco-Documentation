@@ -62,16 +62,25 @@ Example:
 ssh-keygen -t rsa -f ~/.ssh/personal -C personal@gmail.com
 ```
 
-Create config file in .ssh folder and write these lines.
+Create config file in .ssh folder and write these lines in config file.
 ```
-Host workaccount cloco12@cloco.co.jp
-    HostName cloco12@cloco.co.jp
-    IdentityFile ~/.ssh/id_rsa # private key for realname
-    User cloco-account
+Host github.com
+  Hostname github.com
+  IdentityFile ~/.ssh/id_rsa
 
-Host privateaccount personal@gmail.com
-    HostName personal@gmail.com
-    IdentityFile ~/.ssh/personal  # different private key for personal
-    User sagarkattel
+Host github.com-personal
+  Hostname github.com
+  IdentityFile ~/.ssh/personal
 ```
 
+Move to your project and setup git user config
+```
+cd <project_folder> // Replace project_folder with your own project_folder
+git config user.email "<email_address>" // Replace email_address with your own email_address
+git config user.name "<user_name>" // Replace user_name with your own user_name
+
+Example:
+cd cloco_project
+git config user.email "cloco@gmail.com"
+git config user.name "cloco"
+```
