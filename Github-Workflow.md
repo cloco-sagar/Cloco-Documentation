@@ -194,7 +194,7 @@ https://atlassian.com/git/tutorials/inspecting-a-repository/git-tag
    git merge <branch_name>  // Replace with your Branch_name 
    
    Example:
-   git checkout main
+   git checkout feature/123
    git merge trial_cloco
    ```
 
@@ -214,6 +214,13 @@ https://atlassian.com/git/tutorials/inspecting-a-repository/git-tag
    git stash pop //This will apply the stashed changes that was made and delete that stash
    
    git stash apply // This will apply the stashed changes and will not delete that stash ::Reusuable stash
+   
+   git stash show // Show the files in the most recent stash:
+   
+   git stash list // List the stashes
+   
+   git stash show -p stash@{1} //This will show the latest stash changes without applying it and {1} can be changed according to the git stash changes you want to see
+
    ```
 
 
