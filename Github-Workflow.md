@@ -239,8 +239,8 @@ git config user.name "your github name"
 
 Example:
 cd cloco_project
-git config global user.email "cloco@gmail.com"
-git config global user.name "Cloco"
+git config user.email "cloco@gmail.com"
+git config user.name "Cloco"
 ```
 
 **Step-2:** A pop-up with sign in with browser will appear. Make sure you are logged in your GitHub Account. Click on the
