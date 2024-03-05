@@ -15,11 +15,11 @@ It contains two parts i.e Public key(id_rsa.pub) and Private key(id_rsa). Public
    
    ssh-keygen -t rsa -f ~/.ssh/<filename> -C <email_address> //It will generate ssh key pair with filename for particular email
    
-   or
-   
-   ssh-keygen -t ed25519 -C "<email>" -f "<filename>" //Replace email and filename with your own filename
+   Example:
+   ssh-keygen -t rsa -f ~/.ssh/personal -C personal@gmail.com
+
    ```
-   You can use the -t option to specify the type of key to create.
+   You can use the -t option to specify the type of key to create. You can also generate ssh key pair using other algorithm rather than only rsa.
 
 2. The command prompts you to enter the path to the file in which you want to save the key.
 
