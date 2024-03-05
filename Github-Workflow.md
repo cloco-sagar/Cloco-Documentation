@@ -12,7 +12,7 @@
    git clone <project_link_ssh>  //Replace project_link_ssh with your project ssh link
    
    Example:
-   git clone https://github.com/cloco/cloco_project1
+   git clone git@github.com:cloco-account/Cloco-Documentation.git
    ```
 3. Move to the cloned project
 
