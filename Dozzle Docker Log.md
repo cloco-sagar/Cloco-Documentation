@@ -33,7 +33,6 @@ services:
 
 Now you can use port 8080 and search the desired container of docker that you want to see your logs.
 
-## Examples
 
 
 
@@ -58,6 +57,5 @@ sudo kill -9 <PID>  //This will terminate the process running of that PID
 Example:
 sudo lsof -i:3000
 sudo kill -9 2133
-
 ```
 
