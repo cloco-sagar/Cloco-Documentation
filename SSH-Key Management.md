@@ -119,6 +119,6 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/personal //Make sure to change it according to the your git private key of that repo
 ```
 
-Now you can clone or push your repo of which ssh key is added to the github
+Now you can clone or push your repo of which ssh key is added to the github.
 
 
